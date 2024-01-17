@@ -1,0 +1,69 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"image": "./public/images/image-1.png",
+			"name": "Syltherine",
+			"category": "desk",
+			"price": "Rp 2.500.000",
+			"oldPrice": "Rp 3.500.000"
+		},
+		{
+			"id": 2,
+			"image": "./public/images/image-2.png",
+			"name": "Leviosa",
+			"category": "chair",
+			"price": "Rp 2.500.000",
+			"oldPrice": ""
+		},
+		{
+			"id": 3,
+			"image": "./public/images/image-3.png",
+			"name": "Lolito",
+			"category": "bed",
+			"price": "Rp 7.000.000",
+			"oldPrice": "Rp 14.000.000"
+		},
+		{
+			"id": 4,
+			"image": "./public/images/image-4.png",
+			"name": "Respira",
+			"category": "bed",
+			"price": "Rp 500.000",
+			"oldPrice": ""
+		},
+		{
+			"id": 5,
+			"image": "./public/images/image-5.png",
+			"name": "Grifo",
+			"category": "desk",
+			"price": "Rp 1.500.000",
+			"oldPrice": ""
+		},
+		{
+			"id": 6,
+			"image": "./public/images/image-6.png",
+			"name": "Muggo",
+			"category": "bed",
+			"price": "Rp 150.000",
+			"oldPrice": ""
+		},
+		{
+			"id": 7,
+			"image": "./public/images/image-7.png",
+			"name": "Pingky",
+			"category": "bed",
+			"price": "Rp 7.000.000",
+			"oldPrice": "Rp 14.000.000"
+		},
+		{
+			"id": 8,
+			"image": "./public/images/image-8.png",
+			"name": "Potty",
+			"category": "desk",
+			"price": "Rp 500.000",
+			"oldPrice": ""
+		}
+		
+	]
+}

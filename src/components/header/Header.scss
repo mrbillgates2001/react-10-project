@@ -1,0 +1,47 @@
+header {
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #FFF;
+	z-index: 1;
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.navbar {
+			ul {
+				display: flex;
+				gap: 75px;
+				li {
+					a {
+						color: #000;
+						font-family: Poppins;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 500;
+						line-height: normal;
+						border: 2px solid transparent;
+						&:focus {
+							color: crimson;
+							border-bottom: 2px solid red;
+						}
+						&:hover {
+							color: crimson;
+							border-bottom: 2px solid red;
+						}
+					}
+				}
+			}
+		}
+		.buttons {
+			display: flex;
+			gap: 45px;
+			button {
+				border: none;
+				background: none;
+			}
+		}
+	}
+}

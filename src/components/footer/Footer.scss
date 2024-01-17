@@ -1,0 +1,96 @@
+footer {
+	.footer-above {
+		display: flex;
+		gap: 138px;
+        margin-bottom: 48px;
+		div:first-child {
+			h6 {
+				width: 285px;
+			}
+		}
+		h6 {
+			margin-bottom: 55px;
+			color: #9f9f9f;
+			font-family: Poppins;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		h1 {
+			color: #000;
+			font-family: Poppins;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			margin-bottom: 50px;
+		}
+		ul {
+			li {
+				a {
+					color: #000;
+					font-family: Poppins;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+					border: 2px solid transparent;
+					&:focus {
+						color: crimson;
+						border-bottom: 2px solid red;
+					}
+				}
+			}
+		}
+		input {
+			color: #9f9f9f;
+			font-family: Poppins;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			border: none;
+			border-bottom: 1px solid black;
+			padding-bottom: 12px;
+			margin-right: 12px;
+			outline: none;
+			::placeholder {
+				color: #9f9f9f;
+				font-family: Poppins;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+			}
+		}
+		button {
+			color: #000;
+			font-family: Poppins;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			border: none;
+			border-bottom: 1px solid black;
+			padding-bottom: 12px;
+			background: none;
+			font-weight: 900;
+			&:hover {
+				border-bottom: 1px solid red;
+				color: red;
+			}
+		}
+	}
+	.footer-below {
+		p {
+			color: #000;
+			font-family: Poppins;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+            margin: 38px 0;
+		}
+	}
+}
